@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3_3", "Task3_3\Task3_3.csproj", "{951EA1C0-1DA0-47C1-ACBB-5769DFBC6B8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathSolver", "MathSolver\MathSolver.csproj", "{1B334947-35F9-4AA0-8015-F8A955913BB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3_4", "Task3_4\Task3_4.csproj", "{284D5F1E-2F44-4BF2-B727-F7AD5DC640FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{951EA1C0-1DA0-47C1-ACBB-5769DFBC6B8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{951EA1C0-1DA0-47C1-ACBB-5769DFBC6B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{951EA1C0-1DA0-47C1-ACBB-5769DFBC6B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{951EA1C0-1DA0-47C1-ACBB-5769DFBC6B8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B334947-35F9-4AA0-8015-F8A955913BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B334947-35F9-4AA0-8015-F8A955913BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B334947-35F9-4AA0-8015-F8A955913BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B334947-35F9-4AA0-8015-F8A955913BB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{284D5F1E-2F44-4BF2-B727-F7AD5DC640FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{284D5F1E-2F44-4BF2-B727-F7AD5DC640FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{284D5F1E-2F44-4BF2-B727-F7AD5DC640FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{284D5F1E-2F44-4BF2-B727-F7AD5DC640FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

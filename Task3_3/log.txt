@@ -1,0 +1,5 @@
+﻿Equation: -5x+6.7=0. Roots of the equation:  x = 1.34; 
+Incorrect input: df instead of a number.
+Equation: 1x+1=0. Roots of the equation:  x = -1; 
+Equation: 1x2+1x+1=0. The equation doesn't have any root.
+Equation: 1x+1=0. Roots of the equation:  x = -1; 
