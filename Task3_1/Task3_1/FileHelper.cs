@@ -39,6 +39,21 @@ namespace Task3_1
             message = $"{number} lines was read seccessfully from the file ({path}).";
             return true;
         }
+
+        public bool WriteLinesToFile(string path, string[] lines, out string message)
+        {
+            try
+            {
+                File.WriteAllLines(path, lines, Encoding.UTF8);
+                message = "Lines was written successfully to the created file.";
+                return true;
+            }
+            catch (Exception e)
+            {
+                message = $"{e.Message} Cannot create/write to the file.";
+                return false;
+            }
+        }
     }
 }
 

@@ -37,8 +37,8 @@ namespace Task3_1
             }
             Console.WriteLine(message);
             string newFilePath = $@"{Directory.GetCurrentDirectory()}/{dirName}/{fileName}.txt";
-            File.WriteAllLines(newFilePath, lines, Encoding.UTF8);
-            Console.WriteLine("Lines was written successfully to the created file.");
+            fHelper.WriteLinesToFile(newFilePath,lines,out message);
+            Console.WriteLine(message);
             Console.WriteLine("Press any key to exit...");
             Console.ReadLine();
         }
