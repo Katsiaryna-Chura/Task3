@@ -8,21 +8,17 @@ namespace MathSolver
 {
     public class Matrix
     {
-        public int Rows { get; }
-        public int Cols { get; }
-        public double[,] Values { get; }
+        public int Rows { get; private set; }
+        public int Cols { get; private set; }
+        public double[,] Values { get; private set; }
 
         public Matrix(double[,] array)
         {
-            Rows = array.GetLength(0);
-            Cols = array.GetLength(1);
-            Values = array;
+            this.Rows = array.GetLength(0);
+            this.Cols = array.GetLength(1);
+            this.Values = array;
         }
 
-        public void SetValue(int i,int j, double value)
-        {
-            Values[i, j] = value;
-        }
 
         public Matrix multiply(Matrix m)
         {
@@ -51,7 +47,7 @@ namespace MathSolver
             for (int i=0;i<Rows;i++)
             {
                 for (int j=0;j<Cols;j++) {
-                    str += $"{Values[i,j]:0.##} ";
+                    str += $"{Values[i,j],5:0.##} ";
                 }
                 str += "\n";
             }
